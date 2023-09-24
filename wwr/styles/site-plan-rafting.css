@@ -29,6 +29,7 @@ header {
 }
 p {
     padding: 25px;
+    color: var(--secondary-color);
 }
 nav {
     background-color: var(--nav-background-color);
