@@ -5,13 +5,13 @@
     --accent1-color: #134266;
     --accent2-color: #2A5322;
 
-    --heading-font: 'Advent Pro', serif;
-    --paragraph-font: 'Roboto', serif;
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Advent Pro', serif;
     
-    --nav-background-color: #2A5322;
+    --nav-background-color: white;
     --nav-link-color: #2A5322;
     --nav-hover-link-color: #134266;
-    --nav-hover-background-color: #134266;
+    --nav-hover-background-color: white;
 }
 body {
     font-family: var(--paragraph-font);
