@@ -48,6 +48,7 @@ main img {
     width: 150px;
     height: auto;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 footer {
     margin-top: 1em;
@@ -61,6 +62,6 @@ footer {
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
-    background-color: steelblue;
+    background-color: rgb(223, 223, 223);
     color: black;
 }
