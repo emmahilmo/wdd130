@@ -35,7 +35,6 @@ aside {
     padding: 1rem;
     background-color: steelblue;
     color: black;
-    position: relative;
 }
 .center {
     display: block;
@@ -68,7 +67,10 @@ footer {
     background-color: rgb(223, 223, 223);
     color: black;
 }
+aside {
+    position: relative;
+}
 aside h2 {
     position: absolute;
-    left: 176px;
+    left: 177px;
 }
