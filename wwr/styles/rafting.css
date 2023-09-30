@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary-color: #090808;
     --secondary-color: #393424;
@@ -12,22 +17,4 @@
     --nav-link-color: #2A5322;
     --nav-hover-link-color: #134266;
     --nav-hover-background-color: white;
-}
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    text-transform: uppercase;
-}
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-p {
-    padding: 25px;
-    color: var(--secondary-color);
 }
