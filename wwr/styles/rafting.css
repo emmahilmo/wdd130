@@ -95,6 +95,7 @@ article img{
 }
 section img {
     width: 500px;
+    box-shadow: 0 0 30px gray;
     border: 1px solid var(--accent2-color);
     padding: 2px;
     margin: 0 0 1rem 1rem;
