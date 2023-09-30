@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 :root {
     --primary-color: #090808;
     --secondary-color: #393424;
-    --accent1-color: #134266;
-    --accent2-color: #2A5322;
+    --accent1-color: steelblue;
+    --accent2-color: #3d852f;
 
     --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Advent Pro', serif;
+    --paragraph-font: 'Lato', serif;
     
     --nav-background-color: white;
-    --nav-link-color: #2A5322;
-    --nav-hover-link-color: #134266;
+    --nav-link-color: #3d852f;
+    --nav-hover-link-color: steelblue;
     --nav-hover-background-color: white;
 }
 body {
