@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 * {
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     box-sizing: border-box;
 }
 :root {
@@ -25,43 +25,99 @@ body {
     position: relative;
 }
 h1 {
+    display: flex;
+    justify-content: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-transform: uppercase;
-    text-align: center;
     margin: 1rem;
-    border: 1px solid black;
+    border: 1px solid rgb(21, 20, 20);
     padding: 2px;
+    padding-left: 325px;
+    padding-right: 345px;
+    max-width: 940px;
     background-color: var(--accent2-color);
     
-} 
+}
+.design {
+    display: flex;
+    justify-content: center;
+}
+.history {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 400px; */
+    /* padding-right: 390px; */
+}
+.await {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    /* padding-left: 363px; */
+    /* padding-right: 350px; */
+}
+section h2 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 1rem;
+    background-color: steelblue;
+    padding: 2px;
+    /* padding-left: 363px; */
+    /* padding-right: 350px; */
+    /* max-width: 940px; */
+}
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-transform: uppercase;
     margin: 1rem;
     background-color: steelblue;
-    width: 19rem;
 }
 header {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+	/* max-width: 940px; */
     background-color: var(--accent1-color);
+}
+article p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 235px;
+}
+section p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 235px;
+    width: 1200px;
 }
 p {
     padding: 25px;
     color: var(--secondary-color);
+    /* width: 1000px; */
+    /* text-align: center; */
+    justify-content: center;
 }
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
     display: flex;
+    justify-content: flex-end;
+    /* justify-content: space-around; */
+    font-size: 1.2rem;
+    padding: 30px;
     
 }
-nav a {
-    display: block;
+header nav a {
     color: var(--nav-link-color);
+    border: 1px solid rgb(21, 20, 20);
+    padding: 10px;
+    background-color: var(--nav-background-color);
     text-decoration: none;
-    padding: 1rem;
+    
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -69,14 +125,33 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-    
+    text-decoration: underline;
+}
+figure {
+    display: flex;
+    flex-flow: row;
+    /* padding-left: 450px; */
+    /* padding-right: 350px; */
+    /* max-width: 220px; */
+    margin: auto;
+}
+figcaption {
+    color: var(--primary-color);
+    font: var(--paragraph-font);
+    padding: 5px;
+    /* text-align: center; */
+}
+.rafting {
+    display: flex;
+    justify-content: center;
 }
 .logo {
     margin: 10px auto;
     padding: 2px;
 }
-.logo img {
+.logo img { 
     margin: 1rem;
+    width: 200px;
     border: 1px solid black;
     padding: 1rem;
     background-color: rgb(223, 223, 223);
@@ -85,16 +160,22 @@ nav a:hover {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 330px;
+    position: relative;
+    
 }
 article img{
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
-    position: relative;
+    /* position: relative; */
+    width: 200px;
+    
 }
 section img {
-    width: 500px;
+    /* width: 200px; */
+    max-width: 150px;
+    max-height: 150px;
     box-shadow: 0 0 30px gray;
     border: 1px solid var(--accent2-color);
     padding: 2px;
@@ -102,9 +183,16 @@ section img {
 }
 footer {
     border-top: 1px solid black;
+    text-align: center;
 }
 .sociallink img {
     width: auto;
     position: absolute;
     box-shadow: 0 0 30px gray;
+}
+footer nav a {
+    color: var(--nav-link-color);
+    padding: 5px;
+    background-color: var(--nav-background-color);
+    text-decoration: none;
 }
