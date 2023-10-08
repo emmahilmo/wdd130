@@ -127,12 +127,13 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
     text-decoration: underline;
 }
+.figure {
+    display: flex;
+    flex-direction: row;
+}
 figure {
     display: flex;
-    flex-flow: row;
-    /* padding-left: 450px; */
-    /* padding-right: 350px; */
-    /* max-width: 220px; */
+    justify-content: center;
     margin: auto;
 }
 figcaption {
@@ -170,7 +171,6 @@ article img{
     margin: 0 0 1rem 1rem;
     /* position: relative; */
     width: 200px;
-    
 }
 section img {
     /* width: 200px; */
