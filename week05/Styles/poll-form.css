@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:opsz@6..12&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Nunito, Sans;
+    font-size: medium;
+    color: #0e0b0b;
+    background: white;
+}
+header {
+    margin: 0 auto;
+    width: 600px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #0e0b0b;
+    border-radius: 1rem;
+    background-color: #f7f5f5;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 0.5rem;
+    border: 1px solid rgb(18, 17, 17);
+    padding: 0.5rem;
+}
+legend {
+    font-size: 1.4rem;
+    color: navy;
+    padding: 0.5rem;
+}
+label, input, button, select, textarea {
+    font-family: Lato, Regular;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+button {
+    margin: 0.5rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+button:hover {
+    background-color: rgb(1, 1, 44);
+}
